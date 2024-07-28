@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Board from "@/components/Board";
+import SummerCollections from "@/components/SummerCollections";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Homepage
-    </main>
+    <section className="h-full">
+      <Board />
+      <SummerCollections />
+    </section>
   );
 }
