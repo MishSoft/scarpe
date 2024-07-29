@@ -11,7 +11,7 @@ export default function Cart({ product }: any) {
     <Sheet>
       <div className="flex gap-8">
         <SheetTrigger className="flex  justify-center items-center">
-          <FaShoppingBag className="text-[30px]" />
+          <FaShoppingBag className="text-[20px]" />
         </SheetTrigger>
       </div>
       <SheetContent className="flex flex-col">

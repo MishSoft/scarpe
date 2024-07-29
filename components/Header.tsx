@@ -4,13 +4,16 @@ import React from "react";
 import Link from "next/link";
 import { Button } from "./ui/button";
 
+
 // Icon
 import { FaShoppingBag } from "react-icons/fa";
+
 
 // Component
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 import Cart from "./Cart";
+import UserButton from "./UserButton";
 
 export default function Header() {
   return (
@@ -21,10 +24,11 @@ export default function Header() {
           <h1 className="text-3xl font-semibold">SCARPE</h1>
         </Link>
 
-        {/* Desktop nav */}
+        {/* Desktop nav & Cart nav */}
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
           <Cart />
+          <UserButton/>
         </div>
 
         {/* mobile nav &  Cart nav */}

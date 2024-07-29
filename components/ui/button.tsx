@@ -18,6 +18,9 @@ const buttonVariants = cva(
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",
       },
+      link: {
+        default: "text-purple-600",
+      },
     },
     defaultVariants: {
       variant: "default",

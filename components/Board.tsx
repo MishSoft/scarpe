@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import { Button } from "./ui/button";
 
 export default function Board() {
   return (
-    <div className="container mx-auto">
+    <div className="container flex flex-col items-center mx-auto">
       {/* image */}
       <div className="flex flex-col items-center">
         <Image
